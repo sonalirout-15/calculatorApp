@@ -3,7 +3,7 @@
 
 # Ignore node_modules folder
 node_modules
-package-lock.json
+
 
 # Ignore all text files
 *.txt
@@ -13,3 +13,6 @@ package-lock.json
 
 # Ignore SASS config files
 .sass-cache
+
+git check-ignore -v -n package-lock.json
+::      package-lock.json
